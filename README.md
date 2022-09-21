@@ -1,3 +1,76 @@
-<!DOCTYPE html><html lang="en"> <head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title></head> <body> <table align="center" border="1" height="450px" width="300px" cellspacing="0"> <tr align="center"> <td width="60" colspan="6">信息统计表</td> </tr> <tr align="center"> <td width="50">姓名：</td> <td width="50" colspan="5"> <input type="text"> </td> </tr> <tr align="center"> <td width="50">年龄：</td> <td width="50" colspan="5"> <input type="text"> </td> </tr> <tr align="center"> <td width="60">性别：</td> <td width="60" colspan="5"> <label><input type="radio" name="sex" value="1">男</label> <label><input type="radio" name="sex" value="0">女</label> </td> </tr> <tr align="center"> <td width="60">爱好：</td> <td width="60" colspan="5"> <label><input type="checkbox" name="like" value="0">旅游</label> <label><input type="checkbox" name="like" value="1">登山</label> <label><input type="checkbox" name="like" value="2">健身</label> <label><input type="checkbox" name="like" value="3">上网</label> <label><input type="checkbox" name="like" value="4">游泳</label> </td> </tr> <tr align="center"> <td width="60">学历：</td> <td width="60" colspan="5"> <select name="degree"> <option value="">--请选择--</option> <option value="1">专科</option> <option value="2">本科</option> <option value="3">硕士</option> <option value="4">博士及以上</option> </select> </td> </tr> <tr align="center"> <td width="60">自我介绍：</td> <td width="60" colspan="5"> <textarea name="comment" cols="30" rows="5" style="resize:none;">自我介绍：</textarea> </td> </tr> <tr align="center"> <td width="60"></td> <td width="60" colspan="5"> <input type="submit" value="提交"> &nbsp;&nbsp;&nbsp; <input type="reset" value="重置"> &nbsp;&nbsp;&nbsp; <input type="button" value="返回"> </td> </tr> </table></body> </html>
+<!文档类型 html>
+<html 郎=“恩">
 
-Footer
+<头>
+    <元字符集=“UTF-8">
+    <元内容=“X-UA兼容”内容=“IE=边缘">
+    <元名称=“视口”内容=“宽度=设备宽度，初始比例=1.0">
+    <标题>文档</标题>
+</头>
+
+<身体>
+    <表格对齐=“居中”边框=“1”高度=“450px”宽度=“300px”单元格间距=“0">
+        <tr 对齐 =“居中">
+            <td 宽度=“60” colspan=“6”>信息统计表</td>
+        </断续器>
+        <tr 对齐 =“居中">
+            <td 宽度=“50”>姓名：</td>
+            <td 宽度=“50” colspan=“5">
+                <输入类型=“文本">
+            </断续器>
+        </断续器>
+        <tr 对齐 =“居中">
+            <td 宽度=“50”>年龄：</td>
+            <td 宽度=“50” colspan=“5">
+                <输入类型=“文本">
+            </断续器>
+        </断续器>
+        <tr 对齐 =“居中">
+            <td 宽度=“60”>性别：</td>
+            <td 宽度=“60” colspan=“5">
+                <标签><输入类型=“无线电”名称=“性别”值=“1”>男</标签>
+                <标签><输入类型=“无线电”名称=“性别”值=“0”>女</标签>
+            </断续器>
+        </断续器>
+        <tr 对齐 =“居中">
+            <td 宽度=“60”>爱好：</td>
+            <td 宽度=“60” colspan=“5">
+                <标签><输入类型=“复选框”名称=“喜欢”值=“0”>旅游</标签>
+                <标签><输入类型=“复选框”名称=“喜欢”值=“1”>登山</标签>
+                <标签><输入类型=“复选框”名称=“喜欢”值=“2”>健身</标签>
+                <标签><输入类型=“复选框”名称=“喜欢”值=“3”>上网</标签>
+                <标签><输入类型=“复选框”名称=“喜欢”值=“4”>游泳</标签>
+            </断续器>
+        </断续器>
+        <tr 对齐 =“居中">
+            <td 宽度=“60”>学历：</td>
+            <td 宽度=“60” colspan=“5">
+                <选择名称=“度">
+                    <选项值=“”>--请选择--</选项>
+                    <选项值=“1”>专科</选项>
+                    <选项值=“2”>本科</选项>
+                    <选项值=“3”>硕士</选项>
+                    <选项值=“4”>博士及以上</选项>
+                </选择>
+            </断续器>
+        </断续器>
+        <tr 对齐 =“居中">
+            <td 宽度=“60”>自我介绍：</td>
+            <td 宽度=“60” colspan=“5">
+                <文本区域名称=“注释” cols=“30” 行=“5” 样式=“调整大小：无;”>自我介绍：</文本区域>
+            </断续器>
+        </断续器>
+        <tr 对齐 =“居中">
+            <宽度=“60”></吨>
+            <td 宽度=“60” colspan=“5">
+                <输入类型=“提交” 值=“提交">
+&
+                <输入类型=“重置”值=“重置">
+&
+                <输入类型=“按钮” 值=“返回">
+            </断续器>
+        </断续器>
+    </桌子>
+</身体>
+
+</网页>
